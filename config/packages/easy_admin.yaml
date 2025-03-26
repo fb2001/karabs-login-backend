@@ -1,0 +1,17 @@
+# config/packages/easy_admin.yaml
+easy_admin:
+    design:
+        brand_color: '#2B3D51'
+        form_theme:
+            - '@EasyAdmin/crud/form_theme.html.twig'
+    uploads:
+        private_dir: private/
+        public_dir: public/uploads/
+        enseigne_photo:
+            upload_dir: 'public/uploads/enseignes'
+            upload_path: 'uploads/enseignes'
+        user_photo:
+            upload_dir: 'public/uploads/profils'
+            upload_path: 'uploads/profils'
+    user:
+        display_name: 'email'
